@@ -1,0 +1,35 @@
+{
+  "name": "houseviriathus.com",
+  "version": "0.0.1",
+  "description": "House Viriathus Home Page",
+  "main": "public/index.html",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-compass": "^0.7.2",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-htmlmin": "^0.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fppgodinho/houseviriathus.com.git"
+  },
+  "keywords": [
+      "community",
+      "angular.js"
+  ],
+  "author": "Fernando Pedro Pereira Godinho <fppgodinho@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fppgodinho/houseviriathus.com/issues"
+  },
+  "homepage": "www.houseviriathus.com"
+}

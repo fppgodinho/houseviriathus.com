@@ -1,0 +1,47 @@
+.ui                                                                             {
+    display:                flex;
+    flex-direction:         column;
+    position:               fixed;
+    width:                  100%;
+    height:                 100%;
+    
+    #TOP                                                                        {
+        display:            block;
+        width:              100%;
+        height:             100px;
+        background-color:   rgba(255, 0, 0, 0.5);
+    }
+    #MIDDLE                                                                     {
+        display:            flex;
+        flex-direction:     row;
+        width:              100%;
+        background-color:   rgba(0 ,0, 255, 0.5);
+        flex:               1;
+        
+        #LEFT                                                                   {
+            display:    inline-block;
+            width:      250px;
+            background-color:   rgba(255 ,0, 255, 0.5);
+        }
+        #CENTER                                                                 {
+            display:    inline-block;
+            flex:       1;
+            background-color:   rgba(255 , 255, 255, 0.5);
+        }
+        #RIGHT                                                                  {
+            display:    inline-block;
+            width:      250px;
+            background-color:   rgba(255 ,0, 255, 0.5);
+        }
+    }
+    #BOTTOM                                                                     {
+        display:    block;
+        width:      100%;
+        height:     100px;
+        background-color:   rgba(255, 0, 0, 0.5);
+    }
+    
+    @import "ui/server";
+    @import "ui/auth";
+    @import "ui/characters";
+}

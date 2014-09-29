@@ -1,0 +1,12 @@
+<div class="server">
+    <div id="CONNECT" data-ng-show="!connected">
+        <input  id="ADDRESS"    data-ng-model="address"   type="text" placeholder="localhost"/>
+        <input  id="PORT"       data-ng-model="port"      type="text" placeholder="80"/>
+        <button id="SUBMIT"     data-ng-click="connect()">Connect</button>
+    </div>
+
+    <div id="DISCONNECT" data-ng-show="connected">
+        <div id="NAME">Server: {{name}}</div>
+        <button id="SUBMIT"     data-ng-click="disconnect()">Disconnect</button>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+$width: 120px;
+.characters                                                                     {
+    box-sizing:         content-box;
+    display:            flex;
+    flex-direction:     column;
+    align-items:        center;
+    
+    > * {
+        flex: 1;
+    }
+    
+    #LIST                                                                       {
+        width:              $width;
+        display:            flex;
+        flex-direction:     column;
+        align-items:        stretch;
+        
+        #AVAILABLE {
+            display: block;
+        }
+    }
+    
+    #ADD                                                                        {
+        width:              $width;
+        display:            flex;
+        flex-direction:     column;
+        align-items:        stretch;
+        
+        #SUBMIT                                                                 {
+            
+        }
+    }
+    
+    #CHARACTER                                                                  {
+        box-sizing:         content-box;
+        display:            flex;
+        flex-direction:     column;
+        align-items:        center;
+        #SWITCH                                                                 {
+            
+        }
+        .identity                                                               {
+            
+        }
+        .stat                                                                   {
+            
+        }
+    }
+}

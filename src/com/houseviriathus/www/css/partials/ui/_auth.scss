@@ -1,0 +1,20 @@
+$width: 120px;
+.auth                                                                           {
+    box-sizing:         content-box;
+    display:            flex;
+    flex-direction:     column;
+    align-items:        center;
+    
+    #LOGOUT, #LOGIN, #REGISTER                                                  {
+        box-sizing:         content-box;
+        display:            flex;
+        flex-direction:     column;
+        width:              $width;
+        
+        *                                                                       {
+            margin:         2px;
+            box-sizing:     content-box;
+            border:         #000 solid 1px;
+        }
+    }
+}
