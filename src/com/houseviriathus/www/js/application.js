@@ -1,3 +1,3 @@
 'use strict';
 
-var aethernauts = angular.module('aethernauts.darkhounds.net', []);
+var aethernauts = angular.module('www.houseviriathus.com', []);
