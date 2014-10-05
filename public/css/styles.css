@@ -8,16 +8,16 @@ html, body {
   margin: 0px;
   width: 100%;
   height: 100%;
-  font-size: 12px; }
+  font-size: 14px; }
 
 .title {
   font-style: normal;
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 20px; }
 
 .block {
   display: block;
-  padding: 5px; }
+  padding: 15px; }
 
 .list {
   display: flex;
@@ -27,32 +27,35 @@ html, body {
     flex: 1; }
 
 #TS .title {
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: underline; }
 #TS .field {
   display: inline-block;
   font-weight: bold;
-  width: 250px; }
+  width: 350px; }
 #TS .value {
   font-style: italic; }
 
 #CRAFTING .title {
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: underline; }
 #CRAFTING #ROASTER .field {
   display: inline-block;
   font-weight: bold;
-  width: 250px; }
+  width: 3250px; }
 #CRAFTING #ROASTER .specialities {
   font-style: italic;
   padding: 0px 2px; }
+#CRAFTING #ROASTER .value {
+  display: block;
+  padding: 0 0 0 20px; }
 
 #CREST .title {
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: underline; }
 #CREST .field {
   display: inline-block;
   font-weight: bold;
-  width: 250px; }
+  width: 350px; }
 #CREST .value {
   font-style: italic; }
