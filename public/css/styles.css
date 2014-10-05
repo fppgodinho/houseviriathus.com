@@ -1,0 +1,58 @@
+/* 
+    Created on : 28-Apr-2014, 19:14:16
+    Author     : Cain
+*/
+html, body {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-size: 12px; }
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px; }
+
+.block {
+  display: block;
+  padding: 5px; }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+  .list .item {
+    flex: 1; }
+
+#TS .title {
+  font-size: 14px;
+  text-decoration: underline; }
+#TS .field {
+  display: inline-block;
+  font-weight: bold;
+  width: 250px; }
+#TS .value {
+  font-style: italic; }
+
+#CRAFTING .title {
+  font-size: 14px;
+  text-decoration: underline; }
+#CRAFTING #ROASTER .field {
+  display: inline-block;
+  font-weight: bold;
+  width: 250px; }
+#CRAFTING #ROASTER .specialities {
+  font-style: italic;
+  padding: 0px 2px; }
+
+#CREST .title {
+  font-size: 14px;
+  text-decoration: underline; }
+#CREST .field {
+  display: inline-block;
+  font-weight: bold;
+  width: 250px; }
+#CREST .value {
+  font-style: italic; }

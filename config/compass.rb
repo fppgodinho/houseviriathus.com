@@ -1,6 +1,6 @@
 # Development paths:
 # project_path            = ""
-sass_path               = "src/net/darkhounds/aethernauts/client/css"
+sass_path               = "src/com/houseviriathus/www/css"
 css_path                = "public/css"
 
 # Production paths
